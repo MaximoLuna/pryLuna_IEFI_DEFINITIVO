@@ -21,7 +21,7 @@ namespace pryLuna_IEFI_LB2
         public void cargarPais(string nombrePais)
         {
             connDb.ConnectionString = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source=EL_CLUB.accdb";
-
+            commandDb.Parameters.Clear();
             commandDb.Connection = connDb;
             commandDb.CommandType = CommandType.Text;
             commandDb.CommandText = "SELECT NOMBRE_PAIS FROM PAISES WHERE NOMBRE_PAIS = ?";

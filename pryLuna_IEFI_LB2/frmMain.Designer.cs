@@ -120,7 +120,6 @@
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.Size = new System.Drawing.Size(121, 20);
             this.txtNombre.TabIndex = 5;
-            this.txtNombre.TextChanged += new System.EventHandler(this.txtNombre_TextChanged);
             // 
             // txtApellido
             // 
@@ -129,7 +128,6 @@
             this.txtApellido.Name = "txtApellido";
             this.txtApellido.Size = new System.Drawing.Size(121, 20);
             this.txtApellido.TabIndex = 6;
-            this.txtApellido.TextChanged += new System.EventHandler(this.txtApellido_TextChanged);
             // 
             // btnRegistrar
             // 
@@ -153,7 +151,6 @@
             this.optMasculino.TabStop = true;
             this.optMasculino.Text = "Masculino";
             this.optMasculino.UseVisualStyleBackColor = true;
-            this.optMasculino.CheckedChanged += new System.EventHandler(this.optMasculino_CheckedChanged);
             // 
             // optFemenino
             // 
@@ -166,7 +163,6 @@
             this.optFemenino.TabStop = true;
             this.optFemenino.Text = "Femenino";
             this.optFemenino.UseVisualStyleBackColor = true;
-            this.optFemenino.CheckedChanged += new System.EventHandler(this.optFemenino_CheckedChanged);
             // 
             // cmbPais
             // 
@@ -176,7 +172,6 @@
             this.cmbPais.Name = "cmbPais";
             this.cmbPais.Size = new System.Drawing.Size(121, 22);
             this.cmbPais.TabIndex = 17;
-            this.cmbPais.SelectedIndexChanged += new System.EventHandler(this.cmbPais_SelectedIndexChanged);
             // 
             // lblEdad
             // 
@@ -220,7 +215,6 @@
             0,
             0,
             0});
-            this.nudEdad.ValueChanged += new System.EventHandler(this.nudEdad_ValueChanged);
             // 
             // nudIngreso
             // 
@@ -243,7 +237,6 @@
             0,
             0,
             0});
-            this.nudIngreso.ValueChanged += new System.EventHandler(this.nudIngreso_ValueChanged);
             // 
             // nudPuntaje
             // 
@@ -266,7 +259,6 @@
             0,
             0,
             65536});
-            this.nudPuntaje.ValueChanged += new System.EventHandler(this.nudPuntaje_ValueChanged);
             // 
             // tabControl1
             // 
@@ -363,7 +355,6 @@
             this.mrcRegistroPais.TabIndex = 12;
             this.mrcRegistroPais.TabStop = false;
             this.mrcRegistroPais.Text = "Registro";
-            this.mrcRegistroPais.Enter += new System.EventHandler(this.mrcRegistroPais_Enter);
             // 
             // frmMain
             // 
